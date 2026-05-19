@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .services {
+            display: flex;
+            gap: 20px;
+        }
+
+        .service-box {
+            border: 1px solid #000;
+            padding: 15px;
+            width: 33%;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+
+            .service-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>Our Services</h1>
+
+        <div class="services">
+            <div class="service-box">
+                <h2>Web Design</h2>
+                <p>We design clean websites.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Development</h2>
+                <p>We build responsive websites.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Support</h2>
+                <p>We provide technical support.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
